@@ -25,11 +25,11 @@ Navigate to the project directory:
     cd DynamicDictionary
 
 Compile the source code:
-    gcc dictionaryDynamic.c dictionaryDynamic
+    gcc dynamicDictionary.c dynamicDictionary
 
 Usage 
 Once the program is compiled, you can run it using the following command:
-  ./dictionaryDynamic
+  ./dynamicDictionary
 The program will display the main menu:
 
 Welcome to the Dynamic Dictionary!
