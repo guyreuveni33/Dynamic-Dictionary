@@ -19,10 +19,10 @@ Welcome to the Dynamic Dictionary, a command-line tool for managing dictionaries
 To get started with the Dynamic Dictionary, follow these steps:
 
 1. Clone the repository to your local machine:
-    git clone https://github.com/your-username/dynamic-dictionary.git
+    git clone https://github.com/your-username/DynamicDictionary.git
 
 Navigate to the project directory:
-    cd dynamic-dictionary
+    cd DynamicDictionary
 
 Compile the source code:
     gcc dictionaryDynamic.c -o dictionaryDynamic
