@@ -14,7 +14,7 @@ Welcome to the Dynamic Dictionary, a command-line tool for managing dictionaries
 
 - **Delete a Dictionary:** Delete an entire dictionary, including all its words and meanings.
 
-## Getting Started
+## Getting Started - Linux
 
 To get started with the Dynamic Dictionary, follow these steps:
 
@@ -27,7 +27,7 @@ Navigate to the project directory:
 Compile the source code:
     gcc dictionaryDynamic.c -o dictionaryDynamic
 
-Usage
+Usage 
 Once the program is compiled, you can run it using the following command:
   ./dictionaryDynamic
 The program will display the main menu:
