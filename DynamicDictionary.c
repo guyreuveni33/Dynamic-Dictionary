@@ -1,8 +1,7 @@
 /***********************
 * Guy Haim Reuveni
-* 206398596
-* Ex_5
 ***********************/
+
 #include <stdio.h>
 #include <math.h>
 #include <string.h>
