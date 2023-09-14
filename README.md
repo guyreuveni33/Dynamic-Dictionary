@@ -19,7 +19,7 @@ Welcome to the Dynamic Dictionary, a command-line tool for managing dictionaries
 To get started with the Dynamic Dictionary, follow these steps:
 
 1. Clone the repository to your local machine:
-    git clone https://github.com/your-username/DynamicDictionary.git
+    git clone https://github.com/guyreuveni33/DynamicDictionary.git
 
 Navigate to the project directory:
     cd DynamicDictionary
