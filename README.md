@@ -14,6 +14,13 @@ Welcome to the Dynamic Dictionary, a command-line tool for managing dictionaries
 
 - **Delete a Dictionary:** Delete an entire dictionary, including all its words and meanings.
 
+## Simple Running Example 
+
+<img src="https://i.postimg.cc/QVLp14z2/1.png" alt="Image" width="400" height="800">
+<img src="https://i.postimg.cc/NGKS8KVD/2.png" alt="Image" width="400" height="800">
+<img src="https://i.postimg.cc/0jHcK0Gm/3.png" alt="Image" width="400" height="500">
+
+
 ## Getting Started - Linux
 
 To get started with the Dynamic Dictionary, follow these steps:
