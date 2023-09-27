@@ -28,15 +28,15 @@ To get started with the Dynamic Dictionary, follow these steps:
 1. Clone the repository to your local machine:
     git clone https://github.com/guyreuveni33/DynamicDictionary.git
 
-Navigate to the project directory:
+2.Navigate to the project directory:
     cd DynamicDictionary
 
-Compile the source code:
+3.Compile the source code:
     gcc dynamicDictionary.c dynamicDictionary
-
-Usage 
-Once the program is compiled, you can run it using the following command:
+ 
+4.Once the program is compiled, you can run it using the following command:
   ./dynamicDictionary
+
 The program will display the main menu:
 
 Welcome to the Dynamic Dictionary!
