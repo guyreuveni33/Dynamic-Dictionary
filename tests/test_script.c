@@ -4,7 +4,7 @@
 #include "../include/dynamic_dictionary.h"
 #include "dictionary_arrays.h"
 #include "dynamic_dictionary.h"
-
+#include "sort_dictionary.h"
 void createAndPopulateDictionary2(Dictionary *dictionary, const char *lang1, const char *lang2, int numWords,
                                   char *words[][2]) {
     dictionary->numOfLanguages = 2;
@@ -86,9 +86,9 @@ void testScript() {
     Dictionary dict1, dict2, dict3, dict4, dict5;
 
     // Create and populate dictionaries
-    createAndPopulateDictionary3(&dict1, "english", "spanish", "italian", 1000, englishSpanishItalian);
-    createAndPopulateDictionary2(&dict2, "german", "dutch", 1000, germanDutch);
-    createAndPopulateDictionary2(&dict3, "english", "indonesian", 1500, englishIndonesian);
+    createAndPopulateDictionary3(&dict1, "english", "spanish", "italian", 2500, englishSpanishItalian);
+    createAndPopulateDictionary2(&dict2, "german", "dutch", 1500, germanDutch);
+    createAndPopulateDictionary2(&dict3, "english", "indonesian", 3000, englishIndonesian);
     createAndPopulateDictionary2(&dict4, "french", "spanish", 350, frenchSpanish);
     createAndPopulateDictionary3(&dict5, "italian", "portuguese", "french", 250, italianPortugueseFrench);
 
@@ -102,12 +102,12 @@ void testScript() {
     }
 
     // Sort dictionaries
-    sortWordsInDictionary(dictionaries, numOfDictionaries);
+  //  sortWordsInDictionary(dictionaries, numOfDictionaries);
 
-    printf("\nDictionaries after sorting:\n");
-    for (int i = 0; i < numOfDictionaries; i++) {
-        printf("Dictionary %d: %s\n", i + 1, dictionaries[i].languages[0]);
-    }
+   // printf("\nDictionaries after sorting:\n");
+  //  for (int i = 0; i < numOfDictionaries; i++) {
+    //    printf("Dictionary %d: %s\n", i + 1, dictionaries[i].languages[0]);
+    //}
 
     // Export sorted dictionaries to CSV (optional, just for verification)
     // Export dictionaries to CSV

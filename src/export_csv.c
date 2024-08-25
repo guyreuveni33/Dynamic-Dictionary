@@ -36,9 +36,9 @@ void exportDictionaryToCSV(Dictionary *dictionaries, int numOfDictionaries) {
     // Append the suffix " dictionary.csv"
     strcat(fileName, " dictionary.csv");
 
-    // Create the full file path pointing to the "output" directory in your project
+    // Create the full file path pointing to the "exported_dictionaries" directory in your project
     char fullPath[512];
-    snprintf(fullPath, sizeof(fullPath), "../output/%s", fileName);
+    snprintf(fullPath, sizeof(fullPath), "../exported_dictionaries/%s", fileName);
 
     // Open the file for writing (this will overwrite any existing file)
     FILE *file = fopen(fullPath, "w");

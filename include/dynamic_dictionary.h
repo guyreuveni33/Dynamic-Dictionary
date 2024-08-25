@@ -22,6 +22,5 @@ typedef struct {
 void flagCheck(int *flagOfNoOption, int *numOfDictionaries, int *flagForNotPrintMenu);
 
 void run_dynamic_dictionary();
-void sortWordsInDictionary();
 
 #endif // DYNAMIC_DICTIONARY_H
